@@ -14,6 +14,5 @@ I will be sharing detailed insights and learnings from each day as I progress th
 
 - **Topics Covered:** Conditionals and Loops
 
-Stay tuned for more updates as I continue to explore and learn new concepts in DSA.
 
 
