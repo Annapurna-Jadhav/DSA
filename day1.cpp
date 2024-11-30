@@ -1,10 +1,3 @@
-// i basically started this one so that i can have access to DSA and get quick revisions and to also help me get more clarity on what i'm coding
-
-// this is the day 1 of my DSA series
-// i'm going to start with learning cpp programming language from scratch from online content basically from Apna college
-// here i'm going to solve questions on daily basis with learning each concept
-
-// So let's dive into day1 which basically contains  the following things
 
 // variables,datatypes and operators
 
