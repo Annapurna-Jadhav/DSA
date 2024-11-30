@@ -26,7 +26,7 @@ int main()
 
     int age = 22;
     // cout<<age+ "\n" <<    sizeof(age);
-    cout << age << sizeof(age) << "\n";
+    cout << age << sizeof(age) << "\n";       //4
 
     // CHAR DATATYPE    1 byte space
 
@@ -41,7 +41,7 @@ int main()
     // BOOL   1 byte
 
     bool isSafe = true;
-    cout << isSafe << "\n";
+    cout << isSafe << "\n";               //1
 
     // double datatype    8 bytes
 
@@ -59,8 +59,8 @@ int main()
 
     // CASTING and EXPLICIT
 
-    double valu = 100.99;
-    int flt = (int)valu;
+    double val1 = 100.99;
+    int flt = (int)val1;
 
     cout << sizeof(flt) << "\n"
          << flt << '\n'; // 4,100
@@ -132,15 +132,6 @@ cout<<((5<10) || (3<1))<<"\n";                // if one is true it will return 1
 
 
 
-
-// find the sum of two numbers
-
-// int x, y;
-// cout<<"enter your numbers x ";
-// cin>>x;
-// cout<<"enter your numbers y ";
-// cin>>y;
-// cout<<"sumof your numbers is "<<(x+y)<<"\n";
 
 
 
