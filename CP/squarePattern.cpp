@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 {
-    // Square pattern
+    Square pattern
 
-    // same number of rows containing same numbers in a row example if n =3 it will give 3*3 matrix with 123,123,123 in each differ line
+    same number of rows containing same numbers in a row example if n =3 it will give 3*3 matrix with 123,123,123 in each differ line
 
     int n = 6;
     for (int i = 1; i <= n; i++)
@@ -62,7 +62,15 @@ int main()
     }
     cout << num;
 
-
+    // int n=3;
+    // int num=9;
+    // for(int i=1;i<=n;i++){
+    //     for(int j=1;j<=n;j++){
+    //         cout<<num;
+    //         num--;
+    //     }
+    //     cout<<"\n";
+    // }
     
 
     return 0;
