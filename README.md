@@ -10,10 +10,12 @@ I will be sharing detailed insights and learnings from each day as I progress th
 1.[ variables and operators](https://github.com/Annapurna-Jadhav/DSA/blob/8234c61e9efe8489f0d701f481fd2b9dd6603213/CP/varope.cpp) 
 
 2.[ conditionals](https://github.com/Annapurna-Jadhav/DSA/blob/main/CP/conditions.cpp)
-3. loops
-4. square pattern
-5. triangle pattern
-6. functions
+
+3.[loops](https://github.com/Annapurna-Jadhav/DSA/blob/145f32581db5b5aa142403686a4693366f28321a/CP/loop.cpp)
+
+4.[square pattern](
+
+
 
 
 
