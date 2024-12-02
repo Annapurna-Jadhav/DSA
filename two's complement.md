@@ -1,4 +1,5 @@
 # Binary Complements: Understanding 1's and 2's Complements
+---
 
 This guide provides a simple explanation of how to calculate 1's and 2's complements of binary numbers, with examples to illustrate the process.
 
@@ -29,12 +30,5 @@ To calculate the 2's complement from a binary number, it's important to know if 
 1. **Convert Directly to 1's Complement**: `01001`
 2. **Add 1**: `01010`
 
-## Conclusion
-
-Understanding 1's and 2's complements is crucial for binary arithmetic, especially in computing systems where negative numbers are represented using 2's complement. This guide provides a straightforward approach to calculating these complements with clear examples.
-
----
-
-Feel free to reach out if you have any questions or need further clarification on binary complements!
 
 
