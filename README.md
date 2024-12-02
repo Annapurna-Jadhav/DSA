@@ -13,7 +13,7 @@ I will be sharing detailed insights and learnings from each day as I progress th
 
 3.[loops](https://github.com/Annapurna-Jadhav/DSA/blob/145f32581db5b5aa142403686a4693366f28321a/CP/loop.cpp)
 
-4.[square pattern](
+4.[square pattern](https://github.com/Annapurna-Jadhav/DSA/blob/main/CP/squarePattern.cpp)
 
 
 
