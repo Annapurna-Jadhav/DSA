@@ -62,4 +62,3 @@ Data modifiers are used to define the size and type of data that can be stored i
 5. **unsigned**: 
    - Only stores positive values, effectively doubling the maximum positive range compared to signed types.
    - Example for `unsigned int`: Range is from `0` to `2^32 - 1`.
-
