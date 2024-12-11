@@ -39,6 +39,7 @@ int main()
             mark = marks[i];
         }
     }
+    cout << mark << endl;
 
     // second largest number in an array
 
@@ -70,23 +71,22 @@ int main()
 
     // SECOND SMALLEST
 
-    //    int secondSmallest=INT_MAX;
+   // int marks[5] = {34, 56, 78, 96, 96};
 
-    //    int smallest=marks[0];
-    //    for (int i=0;i<size;i++){
-    //     if(marks[i]<smallest){
-    //         secondSmallest=smallest;
-    //         smallest=marks[i];
+    // int secondSmall = INT_MAX;
+    // int small = marks[0];
+    // for (int i = 0; i < size; i++)
+    // {
+    //     if (marks[i]>small)
+    //     {
+    //         secondSmall = marks[i];
+    //         small =small;
     //     }
-    //     else if(marks[i]>smallest && marks[i]<secondSmallest){
-    //         secondSmallest=marks[i];
+    //     else if(marks[i]!=secondSmall && marks[i]<secondSmall){
+    //         secondSmall=marks[i];
     //     }
-    //    }
-    //    cout<<secondSmallest;
-
-    // cout << (mark) << endl
-    //      << endl;
-    // cout << mini << endl;
+    // }
+    // cout << secondSmall;
 
     return 0;
 }
