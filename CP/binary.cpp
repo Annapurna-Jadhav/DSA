@@ -15,8 +15,8 @@ int bin(int n)
 
         // int ans = r * pow;//
         // binary += ans;//
-        binary += r * pow;
-        pow = pow * 10;
+        binary += r *(pow);
+        pow = pow*10;
     }
  return binary;
 }
@@ -43,7 +43,9 @@ int dec(int n){
 int main()
 {
 
-    cout << bin(10)<<endl<<dec(101);
+    cout << bin(10)<<endl<<dec(1);
 
     return 0;
 }
+
+
