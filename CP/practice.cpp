@@ -51,6 +51,10 @@ cout<<"sunday";
 
 //in order to take pass by refernece and override the given value type "&"  in front of the variable
 
+
+
+
+
 //arrays will always go by pass by reference
 
 return 0;

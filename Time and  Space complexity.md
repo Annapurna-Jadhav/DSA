@@ -6,7 +6,7 @@ The formula is:
 
 `{slope} = {time taken}\{input size}`
 
-It is measured in Big O notation, such as \( O(n) \), where \( n \) represents the number of steps.
+It is measured in Big O notation, such as \( O(n) \), where \( n \) represents the number of steps n can vary depending on steps it can be in squares,log,cubic etc.
 
 ## Rules to Calculate Time Complexity
 

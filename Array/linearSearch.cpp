@@ -43,7 +43,7 @@ int main()
         cout << arr[i] << " " ;
     }
 
-    cout << linearSearch(arr, size, target);                   //1 due to change in an array
+    cout << linearSearch(arr, size, target);                   //1 due to change in an arrayet
 
     return 0;
 }
