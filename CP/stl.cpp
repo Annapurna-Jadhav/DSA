@@ -3,6 +3,8 @@
 #include <list>
 #include <stack>
 #include <queue>
+#include <set>
+
 using namespace std;
 
 void learnpair()
@@ -147,18 +149,62 @@ void learnQueue(){
     cout<<st.back();   //210
     cout<<st.front();   
     st.pop();
-    cout<<st.back();   
-    cout<<st.front();   
+    cout<<st.back()<<endl;   
+    cout<<st.front()<<endl;   
     st.pop();
 }
+
+
+//priority queue  = largest integer stay at top
+
+void learnPriorityQueue(){
+    priority_queue<int> pq;
+    pq.push(2);
+    pq.emplace(260);
+    pq.push(2);
+    pq.emplace(20);
+    pq.push(210);
+    cout<<pq.top();    //260
+}
+//set container   sorted and unique
+void learnset(){     
+    //find ,count,earase 
+    //log(n)   
+    set <int> s;
+    s.insert(1);
+    s.emplace(4);
+    s.emplace(14);
+    s.insert(5);
+    s.insert(10);
+    s.insert(5);
+    auto it=s.find(14);
+    auto i=s.find(15);
+
+    s.erase(4);
+
+
+
+      
+    // cout<<s.find(14)<<" ";
+
+
+    //multiset  sorted stores multiple 
+
+
+}
+   
+
+
 int main()
 {
     // learnpair();
     // learntuple();
-    learnvector();
-    learnList();
-    learnStack();
-    learnQueue();
-
+    // learnvector();
+    // learnList();
+    // learnStack();
+    // learnQueue();
+    learnset();
+    // learnPriorityQueue();
+  
     return 0;
 }

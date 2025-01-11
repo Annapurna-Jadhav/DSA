@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdbool.h>
 using namespace std;
 
 int evenlyDivides(int n)
@@ -52,9 +53,24 @@ int reverse(int x)
         return 0;
     }
 };
+int armStrong(int n)
+{
+    int original = n;
+    int sumOfCubes = 0;
+    while (n > 0)
+    {
+        int last = n % 10;
+        sumOfCubes += (last * last * last);
+        n = n / 10;
+    }
+    return sumOfCubes;
+}
+
 
 int main()
 {
+    cout << armStrong(35) <<endl;
+    cout << armStrong(1634) <<endl;
 
     // finding the last digit and number of digits
     int n = 3608;
