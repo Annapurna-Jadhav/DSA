@@ -4,6 +4,7 @@
 #include <stack>
 #include <queue>
 #include <set>
+#include <map>
 
 using namespace std;
 
@@ -192,7 +193,30 @@ void learnset(){
 
 
 }
-   
+ void learnMap() {
+
+map<int,int> mpp1;
+map<int,pair<int,int>>mp2;
+map<pair<int,int>,int>mpp3;
+map<pair<int,int>,pair<int,int>>mpp4;
+mpp1 [1]=2;
+
+mpp1.emplace(3, 1); 
+mpp1.insert({2,4});
+mpp3[{2,3}]=10;
+
+for(auto it:mpp1){
+cout<<it.first<<" = "<<it.second<<endl;
+}
+cout<<mpp1[2];
+cout<<mpp1[5];     //0 or null
+auto an=mpp1.find(2);
+// cout<<*(an).second;
+
+
+ } 
+
+
 
 
 int main()
@@ -205,6 +229,7 @@ int main()
     // learnQueue();
     learnset();
     // learnPriorityQueue();
+    learnMap();
   
     return 0;
 }
