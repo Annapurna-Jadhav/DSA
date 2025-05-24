@@ -8,11 +8,15 @@ void sSort(int arr[],int n){
         int minIndex=i;
         for(int j=i+1; j<=n-1;j++){
             if(arr[j]<arr[minIndex]){
+                 cout<<"before min"<<arr[minIndex]<<endl;
                 minIndex=j;
+                
+                cout<<"after min"<<arr[minIndex]<<endl;
             }
-
+            cout<<j<<endl;
         }
         if(minIndex!=i){
+        cout<<"before swap"<<arr[i]<<" "<<arr[minIndex]<<endl;
             int temporary=arr[i];
         arr[i]=arr[minIndex];
         arr[minIndex]=temporary;
